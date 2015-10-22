@@ -3,7 +3,7 @@
 <head><title>Admin Panel</title></head>
     <body>
        <h1>Admin Panel</h1>
-        Welcome<?php echo $_SESSION['username']; ?>
+        Welcome<?php echo $_POST['username']; ?>
         <form>
             <input type="submit" value="Logout">
         </form>
